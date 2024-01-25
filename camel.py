@@ -5,6 +5,7 @@ def display_banner():
     print(f'\n {stars} \n {msg} \n {stars}\n')
 #intro
 display_banner()
+print("Enter a sentence to convert to CamelCase")
 input_sentence=input("please enter a sentence to be camel case'd: ")
 
 #splitting into words
